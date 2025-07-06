@@ -1,0 +1,50 @@
+{
+    "id": "architectural-design",
+    "title": "Architectural Design Project",
+    "subtitle": "Residential Building Plans",
+    "description": "This project involved creating detailed architectural plans for a modern residential building in Cavite, Philippines. The design focused on maximizing natural light while maintaining privacy in an urban setting.",
+    "type": "design",
+    "heroClass": "architectural-hero",
+    "details": [
+        {"label": "Client", "value": "Private Homeowner"},
+        {"label": "Location", "value": "Imus, Cavite"},
+        {"label": "Year", "value": "2024"},
+        {"label": "Tools Used", "value": "AutoCAD, SketchUp, Lumion"},
+        {"label": "My Role", "value": "Lead CAD Operator"}
+    ],
+    "links": [
+        {"text": "View Details", "url": "#", "icon": "fas fa-eye"}
+    ],
+    "mainImage": "../../images/architectural-main.jpg",
+    "sections": [
+        {
+            "type": "gallery",
+            "title": "Project Gallery",
+            "items": [
+                {"image": "../../images/architectural-1.jpg", "caption": "First Floor Plan"},
+                {"image": "../../images/architectural-2.jpg", "caption": "Front Elevation"},
+                {"image": "../../images/architectural-3.jpg", "caption": "3D Rendering"},
+                {"image": "../../images/architectural-4.jpg", "caption": "Site Plan"}
+            ]
+        },
+        {
+            "type": "process",
+            "title": "Design Process",
+            "steps": [
+                {"title": "Client Consultation", "description": "Met with the client to understand their needs, preferences, and budget constraints."},
+                {"title": "Site Analysis", "description": "Conducted measurements and analyzed the building site's conditions and constraints."}
+            ]
+        },
+        {
+            "type": "challenges",
+            "title": "Challenges & Solutions",
+            "items": [
+                {"title": "Limited Space", "description": "The building site was relatively small for the client's requirements. I optimized the layout using space-saving techniques."}
+            ]
+        }
+    ],
+    "navigation": {
+        "prev": "",
+        "next": "../web-development/"
+    }
+}

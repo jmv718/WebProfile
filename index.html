@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Add font awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Add Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">YourName</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Your Name</span></h1>
+                <p>Your Professional Title</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/your-photo.jpg" alt="Your Name">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Your introduction paragraph...</p>
+                    <p>More about your background...</p>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <span>Name:</span>
+                        <p>Your Name</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Email:</span>
+                        <p>your.email@example.com</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Education:</span>
+                        <p>Your Degree</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Location:</span>
+                        <p>Your City, Country</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <!-- Skill items will be added here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <div class="projects-grid">
+    <div class="project-card" data-category="design">
+        <div class="project-img">
+            <img src="images/architectural-thumb.jpg" alt="Architectural Design">
+        </div>
+        <div class="project-content">
+            <h3>Architectural Design Project</h3>
+            <p>Created detailed architectural plans for a residential building using AutoCAD.</p>
+            <div class="project-tags">
+                <span class="project-tag">AutoCAD</span>
+                <span class="project-tag">Architecture</span>
+            </div>
+            <div class="project-links">
+                <a href="projects/AR-ST-EE-PL/a-design.html"><i class="fas fa-eye"></i> View Details</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="project-card" data-category="web">
+        <div class="project-img">
+            <img src="images/web-dev-thumb.jpg" alt="Web Development">
+        </div>
+        <div class="project-content">
+            <h3>Web Development Project</h3>
+            <p>Built a responsive website for a local business using HTML, CSS, and JavaScript.</p>
+            <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+                <a href="projects/Web-dev/web-dev.html"><i class="fas fa-eye"></i> View Details</a>
+                <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="project-card" data-category="design">
+        <div class="project-img">
+            <img src="images/3d-model-thumb.jpg" alt="3D Modeling">
+        </div>
+        <div class="project-content">
+            <h3>3D Modeling Project</h3>
+            <p>Created 3D models of furniture pieces using SketchUp.</p>
+            <div class="project-tags">
+                <span class="project-tag">SketchUp</span>
+                <span class="project-tag">3D Modeling</span>
+            </div>
+            <div class="project-links">
+                <a href="projects/3D-model/3d-model.html"><i class="fas fa-eye"></i> View Details</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>your.email@example.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+123 456 7890</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Your City, Country</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
